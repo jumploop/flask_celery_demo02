@@ -1,9 +1,11 @@
 from . import view
-from app.tasks import add_together, add_together1
+from app.tasks import add_together, mul_together
 
 
 @view.route('/', methods=['GET', 'POST'])
 def index():
-    result = add_together1.delay(23, 42)
+    result = add_together.delay(23, 42)
     print("task_id:{}".format(result))
-    return "add_together is running...."
+    result2 = mul_together.delay(2, 10)
+    print(result2)
+    return "add_together and mul_together is running...."

@@ -9,6 +9,6 @@ def add_together(a, b):
 
 
 @celery.task()
-def add_together1(a, b):
+def mul_together(a, b):
     time.sleep(15)
-    return a + b
+    return a * b
