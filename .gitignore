@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.idea/*
+将删除 .gitignore
+将删除 README.md
+将删除 app/__init__.py
+将删除 app/tasks/__init__.py
+将删除 app/views/__init__.py
+将删除 app/views/hello_world.py
+将删除 config.py
+将删除 manage.py
+将删除 requirements
