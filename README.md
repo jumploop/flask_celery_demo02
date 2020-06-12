@@ -25,12 +25,12 @@
 
 ## 3. 拉取源码
 
-    (venv3_test) [root@python-server01 ~]# git clone https://github.com/sinrro/flask_celery_demo01.git
+    (venv3_test) [root@python-server01 ~]# git clone https://github.com/jumploop/flask_celery_demo02.git
 
 ## 4. 讲解与测试
 偷个懒
 
-    https://github.com/sinrro/flask_celery_demo01
+    https://github.com/jumploop/flask_celery_demo02
 
 ## 5. 运行
 
